@@ -14,6 +14,7 @@ import { MatProgressBarModule} from '@angular/material/progress-bar';
 import { TwoWayDataBindingComponent } from './two-way-data-binding/two-way-data-binding.component';
 import { FormsModule } from '@angular/forms';
 import { NgStyleComponent } from './ng-style/ng-style.component';
+import { NgClassComponent } from './ng-class/ng-class.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { NgStyleComponent } from './ng-style/ng-style.component';
     StringInterpolationComponent,
     PropertyBindingComponent,
     TwoWayDataBindingComponent,
-    NgStyleComponent
+    NgStyleComponent,
+    NgClassComponent
   ],
   imports: [
     BrowserModule,
